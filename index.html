@@ -5,6 +5,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
 <script src="./p5.play.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyByPoA6OvPKVJJ4oQ4Ca8RvYfik9SI6ELI",
+    authDomain: "c34multiplayer.firebaseapp.com",
+    databaseURL: "https://c34multiplayer.firebaseio.com",
+    projectId: "c34multiplayer",
+    storageBucket: "c34multiplayer.appspot.com",
+    messagingSenderId: "223049565374",
+    appId: "1:223049565374:web:60128acbb0ebe0d5988aef",
+    measurementId: "G-ZQXV907C60"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  //firebase.analytics();
+</script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
 
